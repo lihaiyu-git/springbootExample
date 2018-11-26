@@ -40,7 +40,7 @@ public class TestController {
         return userService.count()+"";
     }
 
-    @GetMapping("/test")
+    @GetMapping("/test") 
     public ModelAndView index(ModelMap map) {
         Map<String,Object> resultMap = new HashMap<>();
         resultMap.put("host","fsfsf");
