@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -25,7 +26,7 @@ public class TestController {
         throw new Exception("发生错误");
     }
 
-    @GetMapping("/hello1")
+    @PostMapping("/hello1")
     public String index1() throws Exception{
         throw new RuntimeException("哈哈");
     }
