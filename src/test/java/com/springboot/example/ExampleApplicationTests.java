@@ -20,7 +20,6 @@ import org.springframework.transaction.annotation.Transactional;
 @SpringBootTest(classes = ExampleApplication.class)//springboot
 //@SpringBootTest(classes = MockServletContext.class)
 @WebAppConfiguration
-@Ignore
 public class ExampleApplicationTests {
 
 	private MockMvc mvc;
