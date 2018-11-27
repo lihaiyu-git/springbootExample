@@ -5,7 +5,6 @@
     <title></title>
 </head>
 <body>
-<p th:text="${user.age}"></p>
-<p th:text="${hello}"></p>
+<p th:text="${msg}"></p>
 </body>
 </html>

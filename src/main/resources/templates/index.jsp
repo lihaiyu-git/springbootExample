@@ -6,6 +6,5 @@
 </head>
 <body>
 <p th:text="${user.age}"></p>
-<p th:text="${hello}"></p>
 </body>
 </html>
