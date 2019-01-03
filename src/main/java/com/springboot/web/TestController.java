@@ -18,8 +18,8 @@ import java.util.Map;
 //@RestController
 @Controller
 public class TestController {
-    @Autowired
-    private UserService userService;
+//    @Autowired
+//    private UserService userService;
 
     @Value("${com.springboot.example.name}")
     private String name;
@@ -39,10 +39,10 @@ public class TestController {
         throw new MyException("myException");
     }
 
-    @GetMapping("/userTest")
-    public String userTest() throws Exception{
-        return userService.count()+"";
-    }
+//    @GetMapping("/userTest")
+//    public String userTest() throws Exception{
+//        return userService.count()+"";
+//    }
 
     @GetMapping("/test")
     public String index(ModelMap map) {
