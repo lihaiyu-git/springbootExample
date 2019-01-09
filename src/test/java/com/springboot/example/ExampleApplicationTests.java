@@ -67,7 +67,6 @@ public class ExampleApplicationTests {
 	public void testUser(){
 		int count = userService.count();
 		System.out.println("----------"+count+"------------");
-
 	}
 
 	/*@Ignore
